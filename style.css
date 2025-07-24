@@ -1,0 +1,33 @@
+body{
+
+}
+
+header{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.info{
+    height: 300px;
+    background-color: blanchedalmond;
+}
+
+.gallery{
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.quote{
+    height: 300px;
+    background-color: brown;
+}
+
+.box{
+    height: 300px;
+    background-color: chocolate;
+}
+
+footer{
+    height: 100px;
+    background-color: darkgoldenrod;
+}
