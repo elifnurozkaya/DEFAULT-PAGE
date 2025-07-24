@@ -1,33 +1,131 @@
-body{
-
+body,html{
+    margin:0;
+    font-size:16px;
+    
 }
 
+body > *{
+    padding:1rem 15rem 1rem;
+
+}
 header{
-    height: 100px;
-    background-color: aquamarine;
+    height: 70px;
+    background-color: rgb(20, 25, 81);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color:rgb(187, 123, 133);
 }
 
 .info{
     height: 300px;
-    background-color: blanchedalmond;
+    background-color: rgb(23, 31, 111);
+    display: flex;
+    justify-content: space-between;
+    padding:5rem 15rem 5rem;
+    font-size: 28px;
+    color:rgb(240, 207, 183);
+    
 }
 
 .gallery{
-    height: 300px;
-    background-color: blueviolet;
+    height: 500px;
+    background-color: rgb(240, 207, 183);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
 }
 
 .quote{
     height: 300px;
-    background-color: brown;
+     background-color: rgb(187, 123, 133);
+     padding:1rem 20rem 1rem;
+     font-size: 24px;
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
 }
 
 .box{
     height: 300px;
-    background-color: chocolate;
+    background-color: rgb(240, 207, 183);
 }
 
 footer{
     height: 100px;
-    background-color: darkgoldenrod;
+    background-color:rgb(20, 25, 81);
+}
+
+div{
+    margin:0;
+    border:none;
+}
+
+h2,h3,li,p{
+    margin:0;
+}
+
+li{
+    list-style:none;
+    padding:0.2rem;
+    border-radius: 0.6rem;
+    color:rgba(187, 123, 133, 0.777);;
+}
+ul{
+    display:flex;
+    gap:1.5rem;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+li:hover{
+    
+    background-color: rgb(187, 123, 133);;
+    color:rgb(20, 25, 81);
+}
+button{
+    height: 50px;
+    width: 210px;
+    font-size: 25px;
+    background-color: rgb(187, 123, 133);
+    color:rgb(20, 25, 81);
+}
+button:hover{
+    background-color: rgb(103, 33, 7);
+    color:rgb(240, 207, 183);
+    
+}
+.photos{
+    display: flex;
+    gap: 2rem;
+    
+}
+
+.pic{
+    max-height:200px;
+}
+
+
+.part{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    
+    color:rgb(20, 25, 81);
+    text-align: center;
+}
+
+.lil-title{
+    margin:5rem;
+    font-size: 36px;
+    font-weight: bold;
+    color:rgb(20, 25, 81);
 }
